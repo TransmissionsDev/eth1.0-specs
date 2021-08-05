@@ -18,18 +18,20 @@ Tracking: `active`
 
 | Name | Description | Dependencies | Work | EIPs | Release | Status
 |---|---|---|---|---|---|---|
-| [Hardhat][hardhat-link] |Framework |EthereumJS, Ethers |  | All |[v2.5.0][hardhat-release] |✅
+| [Hardhat][hardhat-link] |Framework |EthereumJS, Ethers |  | All |[v2.5.0][hardhat-release] | ✅
 | [Truffle][truffle-link] |Framework |EthereumJS, Web3.js, Ethers |  | All | | 🛠️
-| [DappTools][dapptools-link] |Framework | - | [URL][dapptools-work] | All |  | 🛠️ 
+| [DappTools][dapptools-link] |Framework | - | [URL][dapptools-work] | All | [v0.48.0][dapptools-release] | ✅ 
 | [Remix][remix-link] | IDE |EthereumJS, Web3.js, Ethers |  | All |  | 🛠️
 | [Waffle][waffle-link] |Framework |Ganache, Ethers.js, Typechain |  | All | | 🛠️
 | [Brownie][brownie-link] |Framework |Web3.py |  | All | | ⭕
 | [OpenZeppelin][oz-link] |Smart Contract Security |Hardhat |  | ? | | 🛠️
-| [Tenderly][tenderly-link] |Contract Monitoring |Hardhat |  | 1559 |N/A |✅
+| [Tenderly][tenderly-link] |Contract Monitoring |Hardhat |  | 1559 |N/A | ✅
 | [hardhat-deploy][hardhat-deploy-link] |Contract Deployment |Hardhat, Ethers |  | ? | | ⭕
 | [solidity-coverage][solidity-coverage-link] |Contract Testing |Hardhat, Solidity |  | ? | | ⭕
 | [Typechain][typechain-link] |Language Tool |Ethers, Truffle, Hardhat, Web3.js, Solidity |  | ? | | ⭕
 | [Solidity][solidity-link] |Language | - | [URL][solidity-work] | 3198 |  | 🛠️ 
+
+https://github.com/dapphub/dapptools/releases/tag/hevm/0.48.0
 
 [hardhat-link]: https://github.com/nomiclabs/hardhat
 [hardhat-release]: https://github.com/nomiclabs/hardhat/releases/tag/hardhat-core-v2.5.0
@@ -46,6 +48,7 @@ Tracking: `active`
 [solidity-link]: http://soliditylang.eth
 [solidity-work]: https://github.com/ethereum/solidity/pull/11647
 [dapptools-work]:https://github.com/dapphub/dapptools/pull/688
+[dapptools-release]: https://github.com/dapphub/dapptools/releases/tag/hevm%2F0.48.0
 
 
 ### Libraries
